@@ -63,7 +63,7 @@ body{
     line-height: 1em;
    }
 
-   /* ----- ----- */
+   /* ----- nav bar ----- */
    .nav-bar{
     background-color:  rgb(25, 33, 41);
    }
@@ -142,4 +142,23 @@ body{
     height: 180px;
  }
 
- 
+ /* ----- footer ----- */
+
+ .footer{
+    font-size: 1.9em;
+    text-align: center;
+ }
+
+.address{
+    font-style: normal;
+    font-size: 0.8;
+}
+
+.footer a {
+    color: rgb(67, 163, 230) ;
+    text-decoration: none;
+}
+
+.footer ul{
+    list-style: none;
+}
