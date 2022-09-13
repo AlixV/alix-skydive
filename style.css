@@ -58,6 +58,8 @@ body{
    h5{
       font-size: 1.2em;
       line-height: 1em;
+      /* margin-top: 0;
+      margin-bottom: 0; NON !  */
    }
 
    /* ----- nav bar ----- */
@@ -123,7 +125,7 @@ body{
       font-size: 2em;
       letter-spacing: 0.5;
       text-align: center;
-       /* intérêt de text align center ? */
+       /* point of text-align center ? */
       text-decoration: none;
       }
 
@@ -161,37 +163,37 @@ body{
  }
 
  #team .section-text{
-    font-size: 1.9em;
-    text-align: center;
-    width: 60%;
-    margin: 10px auto;
+      font-size: 1.9em;
+      text-align: center;
+      width: 60%;
+      margin: 10px auto;
  }
 
  #team hr{
-   margin: 20px auto 30px ;
-   width: 40%;
+      margin: 20px auto 30px ;
+      width: 40%;
  }
 
  #team .member-name{
-    font-size: 1.5em;
-    font-weight: 700;
+      font-size: 1.5em;
+      font-weight: 700;
  }
 
  #team img{
-    width: 250px;
-    height: 180px;
+      width: 250px;
+      height: 180px;
  }
 
- /* ----- section 4 Schedule----- */
+ /* ----- section 4 Schedule ----- */
 .schedule-table{
-   margin: 0 auto 40px;
-   font-size: 1.5em;
+      margin: 0 auto 40px;
+      font-size: 1.5em;
 }
 
 .schedule-table th, td{
-   border-bottom: 1px solid black;
-   padding: 5px 10px;
-   text-align: center;
+      border-bottom: 1px solid black;
+      padding: 5px 10px;
+      text-align: center;
 }
 
 
@@ -199,11 +201,14 @@ body{
  .footer{
     font-size: 1.9em;
     text-align: center;
+    padding: 40px 100px;
+    margin-bottom: 25px;
  }
 
 .address{
     font-style: normal;
     font-size: 0.8em;
+    margin-bottom: 30px;
 }
 
 .footer a {
@@ -213,4 +218,6 @@ body{
 
 .footer ul{
     list-style: none;
+    text-align: center;
+    padding: 0;
 }
