@@ -18,11 +18,18 @@
             <header class="header">
                 <h1><img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-logo.png" alt="Femme volante"/>Alix Skydive</h1>
                 <h2>Let the trip begin</h2>
-                <aside>
-                    <i class="quote">“The best experience of our lives”</i> 
+                <aside class="quote">
+                    <i >“The best experience of our lives”</i> 
                     <p>Michelle Obama & Marion Cotillard, Famous persons</p>
                  </aside>
             </header>
+
+            <!-- Put the quote in a better place towards the viewport. 
+                Add position with value - relative - to our .header class.
+                This gives us the option to position any inner/child 
+                element of this class at any position (absolute,relative) 
+                - comparing to this element - . If we don’t do that, the quote 
+                will be positioned to the <body> instead of the header-->
 
             <section id="general-information" class="dark-background">
                 <article class="container">
@@ -144,6 +151,7 @@
                         <li><a href="#" target="_blank">Facebook is dead guys</a></li>
                     </ul>
             </footer>
+            <!--  -->
         </body>
     </head>
 </html>
