@@ -176,8 +176,8 @@ body{
   }
 
   #structure > div{  
-   /* div direct children of structure. 
-   flex pour les articles de cette div  */
+   /* target only the div direct children of #structure. 
+   flex pour les <articles> de cette div  */
    display: flex;
    flex-direction: row;
    flex-wrap :wrap;
@@ -213,6 +213,20 @@ body{
  #team img{
       width: 250px;
       height: 180px;
+ }
+
+ #team > div{ /* pour les élements (articles) dans div */
+   display: flex;
+   justify-content: space-evenly;
+   /* horizontal */
+ }
+
+ #team > div > article{ /* pour ce que contient (h4 + img) les articles */
+   display: flex;
+   flex-direction: column;
+   justify-content: center; /* pourquoi ?? */
+   align-items: center;
+
  }
 
  /* ----- section 4 Schedule ----- */
