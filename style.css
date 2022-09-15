@@ -152,7 +152,7 @@ body{
          flex-direction: column;
          align-items: center;
          width: 370px;
-         /* IMP : ADD MARGIN */
+         
       }
 
    /* ----- section 2 structure ----- */
@@ -173,6 +173,17 @@ body{
 
   .service-box img{
       width: 125px;
+  }
+
+  #structure > div{  
+   /* div direct children of structure. 
+   flex pour les articles de cette div  */
+   display: flex;
+   flex-direction: row;
+   flex-wrap :wrap;
+   justify-content: space-between;
+   /* le justify content à premiere vue ne sert pas à grand chose, 
+   mais il doit avoir son rôle à jouer */
   }
 
  /* ----- section 3 team ----- */
