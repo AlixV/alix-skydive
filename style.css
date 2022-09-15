@@ -176,14 +176,14 @@ body{
   }
 
   #structure > div{  
-   /* target only the div direct children of #structure. 
-   flex pour les <articles> de cette div  */
-   display: flex;
-   flex-direction: row;
-   flex-wrap :wrap;
-   justify-content: space-between;
-   /* le justify content à premiere vue ne sert pas à grand chose, 
-   mais il doit avoir son rôle à jouer */
+      /* target only the div direct children of #structure. 
+      flex pour les <articles> de cette div  */
+      display: flex;
+      flex-direction: row;
+      flex-wrap :wrap;
+      justify-content: space-between;
+      /* le justify content à premiere vue ne sert pas à grand chose, 
+      mais il doit avoir son rôle à jouer */
   }
 
  /* ----- section 3 team ----- */
@@ -216,17 +216,16 @@ body{
  }
 
  #team > div{ /* pour les élements (articles) dans div */
-   display: flex;
-   justify-content: space-evenly;
-   /* horizontal */
+      display: flex;
+      justify-content: space-evenly;
+      /* horizontal */
  }
 
  #team > div > article{ /* pour ce que contient (h4 + img) les articles */
-   display: flex;
-   flex-direction: column;
-   justify-content: center; /* pourquoi ?? */
-   align-items: center;
-
+      display: flex;
+      flex-direction: column;
+      justify-content: center; /* pourquoi ?? */
+      align-items: center;
  }
 
  /* ----- section 4 Schedule ----- */
@@ -244,25 +243,33 @@ body{
 
  /* ----- footer ----- */
  .footer{
-    font-size: 1.9em;
-    text-align: center;
-    padding: 40px 100px;
-    margin-bottom: 25px;
+      font-size: 1.9em;
+      text-align: center;
+      padding: 40px 100px;
+      margin-bottom: 25px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
  }
 
 .address{
-    font-style: normal;
-    font-size: 0.8em;
-    margin-bottom: 30px;
-}
+      font-style: normal;
+      font-size: 0.8em;
+      margin-bottom: 30px;
+   }
 
 .footer a {
-    color: rgb(67, 163, 230) ;
-    text-decoration: none;
+      color: rgb(67, 163, 230) ;
+      text-decoration: none;
 }
 
 .footer ul{
-    list-style: none;
-    text-align: center;
-    padding: 0;
+      list-style: none;
+      text-align: center;
+      padding: 0;
+}
+
+.map-frame{
+   height: 375px;
+   width: 60%;
 }
