@@ -42,7 +42,7 @@ body{
       text-transform: uppercase;
       line-height: 4em;
    }
-   /* body font-size 10px*5 */
+   /* body font-size 10px * 5 */
 
    h3{
       font-size: 4.2em;
@@ -63,7 +63,7 @@ body{
       margin-bottom: 0; NON !  */
    }
 
-   /* ----- nav bar ----- */
+   /* ----- Nav bar ----- */
    .nav-bar{
       background-color:  rgb(25, 33, 41);
       padding-top: 14px;
@@ -89,7 +89,7 @@ body{
       text-align: center;
    }
 
-    /* ----- header ----- */
+    /* ----- Header ----- */
    .header{
       height: 650px;
       padding-top: 50px;
@@ -108,11 +108,11 @@ body{
    .quote{
       font-size: 2.5em;
       position: absolute;
-     left: 10%;
-     bottom: 100px;
+      left: 10%;
+      bottom: 100px;
    }
 
-   /* ----- section 1 Hello ! -----*/
+   /* ----- Section 1 Hello ! -----*/
    .dark-background{ 
       background-color: rgb(25, 33, 41);
       color: white;
@@ -158,7 +158,7 @@ body{
          
       }
 
-   /* ----- section 2 structure ----- */
+   /* ----- Section 2 structure ----- */
   .service-box{ /* each article */
       font-size: 1.7em;
       text-align: center;
@@ -189,7 +189,7 @@ body{
       mais il doit avoir son rôle à jouer */
   }
 
- /* ----- section 3 team ----- */
+ /* ----- Section 3 team ----- */
 
  #team{
       padding: 75px 0;;
@@ -231,7 +231,7 @@ body{
       align-items: center;
  }
 
- /* ----- section 4 Schedule ----- */
+ /* ----- Section 4 Schedule ----- */
 .schedule-table{
       margin: 0 auto 40px;
       font-size: 1.5em;
@@ -244,7 +244,7 @@ body{
 }
 
 
- /* ----- footer ----- */
+ /* ----- Footer ----- */
  .footer{
       font-size: 1.9em;
       text-align: center;
